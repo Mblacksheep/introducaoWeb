@@ -1,0 +1,18 @@
+@import 'variables.css';
+
+body {
+	color: var(--main-font-color);
+}
+
+div.form {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+	background: #ddd;
+	padding: 15px;
+}
